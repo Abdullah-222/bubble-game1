@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    overflow: hidden;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #c2c5aa;
+    padding: 10px; /* Add padding for better mobile layout */
+}
+
+.heading {
+    color: #582f0e;
+    font-weight: 2500;
+    font-size: 30px; /* Decrease font size for smaller screens */
+    margin-bottom: 20px;
+}
+
+.heading1 {
+    font-size: 16px; /* Decrease font size for smaller screens */
+}
+
+.square {
+    height: 77vh;
+    border-radius: 10px;
+    border: 2px solid #8d714a;
+    overflow: hidden;
+    width: 100%;
+    max-width: 370px; /* Limit width for better mobile layout */
+    background-color: rgba(255, 255, 255, 0.091);
+    padding: 10px; /* Add padding for better mobile layout */
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap; /* Wrap elements for smaller screens */
+    justify-content: center;
+    gap: 10px; /* Decrease gap for smaller screens */
+    padding: 10px; /* Add padding for better mobile layout */
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 650;
+    background-color: aliceblue;
+    height: 30px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.div {
+    color: #311c0a;
+    gap: 10px; /* Decrease gap for smaller screens */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Wrap elements for smaller screens */
+    padding: 10px; /* Add padding for better mobile layout */
+}
+
+.circle {
+    margin: 5px;
+    padding: 8.5px;
+    font-weight: 700;
+    font-size: 18px; /* Decrease font size for smaller screens */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #d1aa73;
+}
+
+.button {
+    font-size: 18px; /* Decrease font size for smaller screens */
+    font-weight: 700;
+    padding: 10px 15px;
+    background-color: #8d714a;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
